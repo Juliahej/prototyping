@@ -1,0 +1,548 @@
+lines (282 sloc)  5.19 KB
+  
+/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/template/blog-home)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+
+html {
+  min-height: 100%;
+}
+
+
+body {
+  padding-top: 56px;
+  background-color: #4B2050;
+  color: #fff;
+  font-family: "Arial", "Helvetica", "sans-serif";
+  --color-primary: #009579;
+  --color-primary-dark: #007f67;
+  --color-secondary: #E95F4B;
+  --color-error: #E95F4B;
+  --color-success: #4bb544;
+  --border-radius: 4px;
+}
+
+
+body.aboutgradient {
+    margin: 40px;
+
+  background-image: linear-gradient(220deg, #C14940, #3A143F);
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body.bodyindex {
+  padding-top: 56px;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #EB5E45;
+    text-align: left;
+    background-image: linear-gradient(220deg, #C14940, #3A143F);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+main {
+
+  margin: 40px;
+
+}
+
+h1.about {
+
+  text-align: center;
+  color:#F49953;
+  font-size: 50px;
+}
+
+h1.r {
+
+  text-align: center;
+  color:#F49953;
+  font-size: 50px;
+}
+
+
+.navbarBackgroundColor {
+  background-color: #EEEFEA;
+}
+
+
+.navbar-brand {
+  color: #EB5E45;
+}
+
+.nav-link {
+  color: #F49953;
+}
+
+.nav-link:hover{
+  color: #823A8B;
+}
+
+.darkorangetext{
+  color: #EB5E45;
+}
+
+.page-link {
+  color: #F49953;
+}
+
+a
+{
+  color: #F49953;
+}
+
+a:hover
+{
+  color: #823A8B;
+}
+
+a.navto {
+    text-decoration: none;
+    
+}
+
+a.loginfeed{
+    text-decoration: none;
+
+}
+
+.card-header {
+    background-color: #F49953;
+}
+
+body {
+  color: black;
+}
+
+h1.red {
+  color: rgb(255, 255, 255);
+}
+
+h1{
+  color: white;
+}
+
+
+
+h1.aboutus {
+ color: #EB5E45;
+ margin-left: 150px;
+ font-size: 36px;
+ margin-left: 8%;
+}
+
+h1.welcome {
+    color: #EB5E45;
+    font-size: 4rem;
+    margin-top: 10%;
+    margin-left: 8%;
+}
+
+h5 {
+  color: white;
+}
+
+.btn-primaryset {
+    color: #F49953;
+    background-color: #823A8B;
+    border-color: #823A8B;
+}
+
+.btn-primaryset:hover {
+  color: #fff;
+  background-color: #EB5E45;
+  border-color: #EB5E45;
+}
+
+.btn-secondaryset {
+    color: #EB5E45;
+    background-color: #EEEFEA;
+    border-color: #EB5E45;
+}
+
+.btn-secondaryset:hover {
+    color: #EEEFEA;
+    background-color: #EB5E45;
+    border-color: #EB5E45;
+}
+
+
+footer {
+   color: #EB5E45;
+}
+
+svg.about {
+  color: #F49953;
+}
+
+p.about {
+
+  color: #F49953;
+
+}
+
+img.indeximg {
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+
+
+/*----------------------UNDER EVA-MARIA SETTINGSSIDAN------------------------------------------*/
+
+form.settingscard {
+margin-top: 40px;
+}
+
+.marginleftset{
+  margin-left: 20%;
+}
+
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 28px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #EB5E45;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #F49953;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #EB5E45;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.div-button {
+    margin-left: 20px;
+}
+
+.margintopfooter {
+    margin-top: 80px;
+}
+
+div.margintop {
+    margin-top: 80px;
+}
+
+@media screen and (min-width: 600px)  {
+        .mobile-break { display: none; }
+    }
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+/* Create three unequal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.column1floatright {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.column2 {
+  float: left;
+  width: 15%;
+  padding: 5px;
+}
+
+.column3 {
+  float: right;
+  float: right;
+  width: 35%;
+  padding: 5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+/*----------------------SLUT EVA-MARIA SETTINGSSIDAN------------------------------------------*/
+
+/*Dani column*/
+
+/* Create two unequal columns that floats next to each other */
+.columnhalf {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+p.namn {
+  color: #EB5E45;
+}
+
+h2.feed {
+  color: transparent;
+}
+
+h4.goback {
+   color: #F49953;
+   list-style: none;
+}
+
+
+/*------ny index-------*/
+
+
+/*------end ny index-------*/
+
+/*----two equal columns---*/
+img.index-logo {
+  margin-left: 120px;
+
+}
+
+h2.welcome {
+  padding: 120px;
+  font-size: 64px;
+}
+
+h2.text-aboutus {
+  margin-left: 120px;
+  margin-top: -100px;
+  font-size: 36px;
+  color: #EB5E45;
+}
+
+h2.feed-link {
+  margin-left: 120px;
+  color: transparent;
+}
+
+
+/*----end two equal columns---*/
+
+
+/*------Login form------*/
+.login-body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  background-size: cover;
+
+ 
+}
+
+.container-login {
+  max-width: 900px;
+  width: 100%;
+  margin: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  border-radius: var(--border-radius); 
+  background: #662740;
+ 
+}
+
+.container-login, 
+.form__input,
+.form__button {
+  font: 500 1rem 'Quicksand', sans-serif;
+}
+
+.form--hidden {
+  display: none;
+}
+
+
+.form > *:first-child {
+  margin-top: 0;
+}
+
+.form > *:last-child {
+  margin-top: 0;
+}
+
+.form__title {
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #E95F4B;
+  font-size: 1.5rem;
+  }
+
+.form__message {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form__message--success {
+  color: var(--color-success);
+}
+
+.form__message--error {
+  color: var(--color-error);
+}
+
+.form__input-group {
+  margin-bottom: 1rem;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  box-sizing: border-box;
+  border-radius: var(--border-radius);
+  border: 1px solid #dddddd;
+  outline: none;
+  background: #eeeeee;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+
+.form__input:focus {
+  border-color: var(--color-primary);
+  background: #ffffff;
+}
+
+
+
+.form__input--error {
+  color: var(--color-error);
+  border-color: var(--color-error);
+}
+
+.form__input-error-message {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--color-error);
+}
+
+.form__button {
+  width: 100%;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  border-radius: var(--border-radius);
+  font-size: 1.1rem;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  background: var(--color-primary);
+
+}
+
+.form__button:hover {
+  background: var(--color-primary-dark);
+}
+
+/*nåt strul 29.50, funkar men vill ta bort blå border*/
+.form__button:active {
+  transform: scale(0.98);
+}
+
+.form__text {
+  text-align: center;
+
+}
+
+.form__link {
+  color: var(--color-secondary);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.form__link:hover {
+  text-decoration: underline;
+}
