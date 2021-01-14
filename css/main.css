@@ -412,6 +412,15 @@ h2.feed-link {
 
 /*----end two equal columns---*/
 
+/*----feed css----*/
+p.navigation-text {
+  color: #EB5E45;
+}
+
+/*----end feed css----*/
+
+
+
 
 /*------Login form------*/
 .login-body {
