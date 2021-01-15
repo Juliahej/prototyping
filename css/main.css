@@ -413,13 +413,6 @@ h2.feed-link {
 /*----end two equal columns---*/
 
 /*----feed css----*/
-p.navigation-text {
-  color: #EB5E45;
-}
-
-/*----end feed css----*/
-
-
 
 
 /*------Login form------*/
@@ -442,6 +435,8 @@ p.navigation-text {
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
   border-radius: var(--border-radius); 
   background: #662740;
+  margin-top: 120px;
+  align-items: center;
  
 }
 
@@ -486,6 +481,8 @@ p.navigation-text {
 
 .form__input-group {
   margin-bottom: 1rem;
+  margin-left: 1rem;
+
 }
 
 .form__input {
@@ -520,8 +517,10 @@ p.navigation-text {
 }
 
 .form__button {
-  width: 100%;
+  width: 95%;
   padding: 1rem 2rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
   font-weight: bold;
   border-radius: var(--border-radius);
   font-size: 1.1rem;
