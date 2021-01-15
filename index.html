@@ -26,6 +26,8 @@
   <img class="index-logo" alt="cave" class="img-fluid" height="auto" src="img/cave-logo2.png" width="200">
 </div></div>
 
+
+
 <!--two equal columns-->
 <div class="container-fluid p-0">
 <!-- grid container -->
@@ -33,59 +35,36 @@
     <!--grid columns -->
     <div class="col-7"><h2 class="welcome">Welcome to a new, safe social media platform</h2><a href="javascript: document.body.scrollIntoView(false);"><h2 class="text-aboutus">About Us</h2></a></div>
        <!--loginform-->
-       <div class="col"><div class="login-body col-md-9">
-        <div class="container-login container-fluid">
-    <form class="form" id="login">
-      <h1 class="form__title">Login</h1>
-      <div class="form__message form__message--error"></div>
-      <div class="form__input-group">
-        <input type="text" class="form__input" autofocus placeholder="username or email">
+<!----- den fakking funkar ----->
 
-        <!--error message text mellan div-->
-        <div class="form__input-error-message"></div>
-        </div>
-        <div class="form__input-group">
-        <input type="password" class="form__input" autofocus placeholder="password">
-        <div class="form__input-error-message"></div>
-        </div>
-                <button class="form__button" type="submit">Continue</button>
-        <p class="form__text">
-          <a href="#" class="form__link">Forgot your password?</a>
+
+         <section class="about-section text-center" id="about">
+            <div class="container-login">
+                <div class="row">
+                  <div class="form__input-group">
+                    
+
+                        <h1 class="form__title">Login</h1>
+                        
+                               
+                 <form class="form" id="login" name="formName" action="feed.html" onsubmit="return checkPass()" >
+                 <p><div class="form__input-group"><input type="text" class="form__input" autofocus placeholder="username or email" name="username"></div></p>
+                 <p id="passStatus">  </p>
+                  
+                                     <form name="formName" action="feed.html" onsubmit="return checkPass()" >
+                                 <p><div class="form__input-group"><input type="password" name="password" class="form__input" autofocus placeholder="password"></div></p>
+                                 <p id="passStatus">  </p>
+                                  <button class="form__button" input type="submit" value="Submit">Continue</button>
+                                   <p class="form__text">
+          Forgot your password?
         </p>
         <p class="form__text">
-          <a class="form__link" href="./" id="linkCreateAccount">Don't have an account? Create account</a>
-        </p>
-    </form>
+          Don't have an account? Create account
+        </p>                    
+      </p>
+        </section>
+<!----slut den fakking funkar------>
 
-    <!--create account-->
-    <form class="form form--hidden" id="createAccount">
-      <h1 class="form__title">Create Account</h1>
-      <div class="form__message form__message--error"></div>
-      <div class="form__input-group">
-        <input type="text" id="signupUsername" class="form__input" autofocus placeholder="Username">
-        <div class="form__input-error-message"></div>
-        </div>
-        <div class="form__input-group">
-        <input type="text" class="form__input" autofocus placeholder="Email Adress">
-        <div class="form__input-error-message"></div>
-        </div>
-
-        <div class="form__input-group">
-        <input type="password" class="form__input" autofocus placeholder="Password">
-        <div class="form__input-error-message"></div>
-        </div>
-        <div class="form__input-group">
-        <input type="password" class="form__input" autofocus placeholder="Confirm Password">
-        <div class="form__input-error-message"></div>
-        </div>
-                <button class="form__button" type="submit">Continue</button>
-        
-        <p class="form__text">
-          <a class="form__link" href="./" id="linkLogin">Already have an account? Sign in</a>
-        </p>
-    </form>
-  </div>
-</div>
    
   </div>
 </div>
