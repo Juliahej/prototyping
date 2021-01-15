@@ -36,7 +36,7 @@ function checkPass() {
 	} else {
 		// if the user is above the max changes for the password check they are locked out
 		//inform the user of how its going for them
-		document.getElementById("passStatus").innerHTML = "NO LOGIN FOR YOU!";
+		document.getElementById("passStatus").innerHTML = "you've entered the wrong password too many times";
 		// and also make it red
 		document.getElementById("passStatus").style.color = "red";
 		return false;
