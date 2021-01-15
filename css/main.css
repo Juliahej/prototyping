@@ -381,10 +381,6 @@ h4.goback {
 }
 
 
-/*------ny index-------*/
-
-
-/*------end ny index-------*/
 
 /*----two equal columns---*/
 img.index-logo {
@@ -407,6 +403,11 @@ h2.text-aboutus {
 h2.feed-link {
   margin-left: 120px;
   color: transparent;
+}
+
+p.navigation-text {
+  color: #EB5E45;
+
 }
 
 
@@ -554,3 +555,67 @@ h2.feed-link {
 .form__link:hover {
   text-decoration: underline;
 }
+
+
+/* carousel */
+
+.carousel-item {
+    height: 32rem;
+    background: #000;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.container-carousel {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+h1.carousel-text {
+  font-size: 64px;
+  color: #EB5E45;
+
+}
+
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+/* end carousel */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
