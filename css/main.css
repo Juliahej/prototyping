@@ -328,7 +328,10 @@ p.navigation-text {
 }
 /*----end two equal columns---*/
 
-/*----feed css----*/
+a.nav-item {
+  color: #EB5E45;
+}
+
 
 /*------Login form------*/
 
@@ -423,7 +426,6 @@ p.navigation-text {
 .form__button:hover {
   background: var(--color-primary-dark);
 }
-/*nåt strul 29.50, funkar men vill ta bort blå border*/
 
 .form__button:active {
   transform: scale(0.98);
