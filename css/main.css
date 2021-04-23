@@ -390,6 +390,8 @@ h4.goback {
 /*----two equal columns---*/
 img.index-logo {
   margin-left: 120px;
+  width: 200px;
+  height: auto;
 
 }
 
